@@ -8,10 +8,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: "URecycle",
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: MyHomePage(title: 'Harshil Vyas'),
+      home: MyHomePage(title: 'URecycle'),
     );
   }
 }
@@ -35,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
 
         child: Image(
-          image: AssetImage('images/Main_Page.png'),
+          image: AssetImage('images/app_launch.png'),
           fit: BoxFit.cover,
           height: double.infinity,
           width: double.infinity,
