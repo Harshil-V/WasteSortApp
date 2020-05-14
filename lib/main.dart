@@ -34,8 +34,12 @@ class _MyHomePageState extends State<MyHomePage> {
 
       body: Center(
 
-        child: Loader(
-
+        child: Image(
+          image: AssetImage('images/Main_Page.png'),
+          fit: BoxFit.cover,
+          height: double.infinity,
+          width: double.infinity,
+          alignment: Alignment.center,
         ),
       ),
     );
